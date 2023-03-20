@@ -1,5 +1,5 @@
 import menuItems from './header.data'
-import logo from '../../../public/images/nav-logo.png'
+import logo from '../../../public/images/logos/nav-logo.png'
 import pageWidth from '../../constants/pageWidth'
 import useWindowSize from '../../hooks/useWindowDimensions'
 import DesktopHeaderContent from '../DesktopHeaderComponent'

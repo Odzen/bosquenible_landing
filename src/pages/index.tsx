@@ -10,6 +10,7 @@ const DynamicHero = dynamic(() => import('../sections/Hero'))
 const DynamicServices = dynamic(() => import('../sections/Services'))
 const DynamicContact = dynamic(() => import('../sections/Contact'))
 const DynamicAllies = dynamic(() => import('../sections/Allies'))
+const DynamicBanner = dynamic(() => import('../sections/Banner'))
 const DynamicFooter = dynamic(() => import('../sections/Footer'))
 
 const Home: React.FC = () => (
@@ -24,6 +25,7 @@ const Home: React.FC = () => (
       <DynamicServices />
       <DynamicContact />
       <DynamicAllies />
+      <DynamicBanner />
       <DynamicFooter />
     </Container>
   </>
