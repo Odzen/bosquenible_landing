@@ -63,7 +63,7 @@ export const FooterLogo = styled.footer`
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 0.2px;
-    color: var(--drak-green);
+    color: var(--dark-green);
     text-align: center;
   }
 
@@ -92,8 +92,9 @@ export const Button = styled.a`
   justify-content: center;
 
   p {
-    color: var(--dark-green);
+    color: var(--green);
     font-family: Frutiger LT Std;
+    font-weight: 900;
     font-size: 15px;
   }
 

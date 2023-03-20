@@ -39,7 +39,7 @@ const GlobalStyle = createGlobalStyle`
     --black: #000000;
     --white: #FFFFFF;
     --orange: #FF833E;
-    --light-white: #f4eee9;
+    --light-white: #F4EEE9;
 
     --green: #AFD080;
     --dark-green: #263E04;
@@ -49,7 +49,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     margin: 0px;
 
-    background-color: var(--white);
+    background-color: var(--light-white);
 
     font-family: "Myriad Pro", sans-serif;
 

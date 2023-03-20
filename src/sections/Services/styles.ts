@@ -10,7 +10,7 @@ export const OurServices = styled.section`
   justify-content: center;
   align-items: center;
   margin-bottom: 100px;
-  background: var(--white);
+  background-color: var(--light-white);
 `
 
 export const Content = styled.div`
