@@ -1,4 +1,3 @@
-# falco.gg
+# Landing Bosquenible
 
-We help studios launch top quality games in web3 - fast
-
+DESARROLLAMOS ESTRATEGIAS DE SOSTENIBILIDAD QUE IMPACTAN POSITIVAMENTE EN LA SOCIEDAD Y EN EL MEDIO AMBIENTE
