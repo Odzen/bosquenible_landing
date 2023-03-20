@@ -34,7 +34,7 @@ const ContactSection: React.FC = () => {
   return (
     <Contact id='contact'>
       <Content>
-        <ImageWrapper route='/images/contact/bg.png'>
+        <ImageWrapper route='/images/contact/bg_2.jpg'>
           <h3>ESTAMOS CERTIFICADOS EN</h3>
           <CertificationsWrapper>
             <Image

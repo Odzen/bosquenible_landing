@@ -30,6 +30,7 @@ export const ImageWrapper = styled.div<ImageProps>`
   align-items: center;
   object-fit: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   background-position: center center;
   height: 100%;
