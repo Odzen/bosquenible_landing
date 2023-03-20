@@ -2,7 +2,6 @@ import { useState } from 'react'
 
 import Image from 'next/image'
 
-import menuIcon from '../../../public/images/menu.png'
 import {
   Nav,
   Container,
@@ -13,6 +12,7 @@ import {
   Menu,
   ScrollLink
 } from './styles'
+import menuIcon from '../../../public/images/menu.png'
 
 interface MenuItem {
   id: number
