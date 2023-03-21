@@ -1,6 +1,5 @@
 /* eslint-disable react/no-danger */
 
-
 import Document, { Head, Html, Main, NextScript, DocumentContext } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
 
@@ -79,8 +78,14 @@ export default class MyDocument extends Document {
           <meta charSet='utf-8' />
           <meta name='google' content='notranslate' />
           {/* <!-- Primary Meta Tags --> */}
-          <meta name="title" content="Falco - We help studios launch top quality games in web3 - fast" />
-          <meta name="description" content="From blockchain infrastructure to Marketing/Community management. The complete solution for your web3 project launching" />
+          <meta
+            name='title'
+            content='DESARROLLAMOS ESTRATEGIAS DE SOSTENIBILIDAD QUE IMPACTAN POSITIVAMENTE EN LA SOCIEDAD Y EN EL MEDIO AMBIENTE'
+          />
+          <meta
+            name='description'
+            content='SOSTENIBILIDAD CORPORATIVA GESTIÓN AMBIENTAL INTEGRAL FORMACIÓN Y DESARROLLO'
+          />
 
           <meta name='robots' content='index, follow' />
           <meta httpEquiv='Content-Type' content='text/html; charset=utf-8' />
