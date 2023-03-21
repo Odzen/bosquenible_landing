@@ -30,7 +30,7 @@ const ContactSection: React.FC = () => (
           <Image
             src='/images/contact/certification.png'
             alt='certification'
-            width={400}
+            width={500}
             height={146}
           />
         </CertificationsWrapper>
