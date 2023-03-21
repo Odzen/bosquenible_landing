@@ -40,7 +40,9 @@ const GlobalStyle = createGlobalStyle`
     --white: #FFFFFF;
     --orange: #FF833E;
     --light-white: #F4EEE9;
-
+    --light-white--alt: #F4EDE7;
+    
+    --green--alt: #1E3F00;
     --green: #AFD080;
     --dark-green: #263E04;
   }

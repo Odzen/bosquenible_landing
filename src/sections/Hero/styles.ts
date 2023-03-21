@@ -4,15 +4,15 @@ import pageWidth from '../../constants/pageWidth'
 
 export const Container = styled.section`
   display: flex;
-  height: 500px;
+  height: 800px;
   position: relative;
   width: 100%;
 
-  @media (min-width: ${pageWidth.smallScreen}px) {
-    height: 570px;
+  @media (min-width: ${pageWidth.smallPhone}px) {
+    height: 700px;
   }
   @media (min-width: ${pageWidth.screen}px) {
-    height: 678px;
+    height: 900px;
   }
 `
 
@@ -36,7 +36,6 @@ export const HeroContainerTitle = styled.div`
   max-width: 70%;
   z-index: 2;
   position: relative;
-  margin-top: 0px;
 `
 
 export const ImageWrapper = styled.div`
@@ -64,11 +63,13 @@ export const ImageWrapper = styled.div`
 `
 
 export const ContainerHeader = styled.h2`
-  color: #fff;
   font-size: 32px;
-  font-weight: 500;
+  font-weight: bold;
   font-family: Knockout HTF50-Welterweight;
   line-height: 1.2;
+  color: var(--green--alt);
+  text-transform: uppercase;
+  letter-spacing: 1.55px;
 
   @media (min-width: ${pageWidth.smallScreen}px) {
     font-size: 42px;
@@ -76,5 +77,28 @@ export const ContainerHeader = styled.h2`
 
   @media (min-width: ${pageWidth.screen}px) {
     font-size: 62px;
+  }
+`
+
+export const ContainerSub = styled.h3`
+  color: var(--light-white--alt);
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Frutiger LT Std;
+  line-height: 1.2;
+  letter-spacing: 5.2px;
+  color: var(--light-white--alt);
+  text-transform: uppercase;
+
+  @media (min-width: ${pageWidth.phone}px) {
+    font-size: 20px;
+  }
+
+  @media (min-width: ${pageWidth.smallScreen}px) {
+    font-size: 28px;
+  }
+
+  @media (min-width: ${pageWidth.screen}px) {
+    font-size: 38px;
   }
 `
