@@ -16,7 +16,7 @@ const Footer: React.FC = () => (
     <FooterContent>
       <FooterLogo>
         <ImageWrap>
-          <Image alt='logo' src='/images/logo.png' layout='fill' />
+          <Image alt='logo' src='/images/logos/logo.png' layout='fill' />
         </ImageWrap>
         <p>© Bosquenible 2023, todos los derechos reservados.</p>
       </FooterLogo>

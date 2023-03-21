@@ -24,7 +24,7 @@ export const Content = styled.div`
 
   @media only screen and (min-width: ${pageWidth.smallScreen}px) {
     padding-top: 100px;
-    padding-inline: 100px;
+    padding-inline: 50px;
     align-items: flex-start;
   }
 `
@@ -65,18 +65,24 @@ export const Service = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 20px;
 `
 export const TitleSection = styled.div`
   display: flex;
   width: 100%;
   align-items: center;
+  justify-content: center;
   gap: 20px;
-  margin-bottom: 20px;
+
+  @media only screen and (min-width: ${pageWidth.smallScreen}px) {
+    justify-content: flex-start;
+  }
 `
 
 export const ImageTitleWrapper = styled.image`
-  width: fit-content;
-  heigth: 100px;
+  display: flex;
+  min-width: fit-content;
+  position: relative;
 `
 
 export const TitleService = styled.h2`
@@ -103,14 +109,18 @@ export const ServiceContent = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
+
   justify-content: flex-start;
-  align-items: flex-start;
-  text-align: start;
+  align-items: center;
   gap: 10px;
   p {
     text-align: justify;
     font-family: Frutiger LT Std;
     font-size: 17px;
     color: var(--dark-green);
+  }
+
+  @media only screen and (min-width: ${pageWidth.smallScreen}px) {
+    align-items: flex-start;
   }
 `
