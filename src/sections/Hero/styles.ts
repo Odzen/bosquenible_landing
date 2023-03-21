@@ -4,13 +4,13 @@ import pageWidth from '../../constants/pageWidth'
 
 export const Container = styled.section`
   display: flex;
-  height: 700px;
+  height: 800px;
   position: relative;
   width: 100%;
 
-  // @media (min-width: ${pageWidth.smallScreen}px) {
-  //   height: 570px;
-  // }
+  @media (min-width: ${pageWidth.smallPhone}px) {
+    height: 700px;
+  }
   @media (min-width: ${pageWidth.screen}px) {
     height: 900px;
   }
@@ -69,6 +69,7 @@ export const ContainerHeader = styled.h2`
   line-height: 1.2;
   color: var(--green--alt);
   text-transform: uppercase;
+  letter-spacing: 1.55px;
 
   @media (min-width: ${pageWidth.smallScreen}px) {
     font-size: 42px;
@@ -85,6 +86,7 @@ export const ContainerSub = styled.h3`
   font-weight: bold;
   font-family: Frutiger LT Std;
   line-height: 1.2;
+  letter-spacing: 5.2px;
   color: var(--light-white--alt);
   text-transform: uppercase;
 
@@ -97,6 +99,6 @@ export const ContainerSub = styled.h3`
   }
 
   @media (min-width: ${pageWidth.screen}px) {
-    font-size: 42px;
+    font-size: 38px;
   }
 `
