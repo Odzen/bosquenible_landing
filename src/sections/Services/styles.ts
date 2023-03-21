@@ -76,7 +76,7 @@ export const TitleSection = styled.div`
 
 export const ImageTitleWrapper = styled.image`
   width: fit-content;
-  heigth: 100px;
+  height: 100px;
 `
 
 export const TitleService = styled.h2`
