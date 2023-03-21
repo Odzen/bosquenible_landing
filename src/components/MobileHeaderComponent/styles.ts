@@ -89,6 +89,8 @@ export const Button = styled.a`
   color: var(--black);
   font-family: Frutiger LT Std;
   font-weight: 700;
+  width: fit-content;
+  font-size: 0.8em;
   padding: 4px 12px;
   border: none;
   border-radius: 8px;
@@ -103,7 +105,5 @@ export const Button = styled.a`
 
   @media screen and (max-width: ${pageWidth.phone}px) {
     padding: 6px 14px;
-    width: 149x;
-    heiht: 36px;
   }
 `
