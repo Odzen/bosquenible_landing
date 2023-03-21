@@ -9,7 +9,8 @@ import {
   InfoMember,
   ImageMemberWrapper,
   MemberContainer,
-  InfoWrapper
+  InfoWrapper,
+  SocialMediaLink
 } from './styles'
 import teamData from './team.data'
 
@@ -36,6 +37,14 @@ const TeamSection: React.FC = () => {
                 <h4>{education || ''}</h4>
                 <p>{sideRole || ''}</p>
               </InfoMember>
+              <SocialMediaLink href={linkedin} target='_blank'>
+                <Image
+                  src='/images/contact/linkedin_2.png'
+                  alt='certification'
+                  width={32}
+                  height={32}
+                />
+              </SocialMediaLink>
             </InfoWrapper>
           </MemberContainer>
         ))}

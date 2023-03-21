@@ -92,6 +92,8 @@ export const InfoWrapper = styled.div`
   flex-direction: column;
   gap: 10px;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 
   h2 {
     font-family: Knockout HTF50-Welterweight;
@@ -102,7 +104,17 @@ export const InfoWrapper = styled.div`
 
   @media only screen and (min-width: ${pageWidth.smallScreen}px) {
     text-align: start;
+    align-items: flex-start;
   }
+`
+
+export const SocialMediaLink = styled.a`
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 `
 
 export const InfoMember = styled.div`
