@@ -27,7 +27,7 @@ const TeamSection: React.FC = () => {
         {teamData.map(({ id, image, name, role, education, linkedin, sideRole }) => (
           <MemberContainer key={id}>
             <ImageMemberWrapper>
-              <Image src={image} alt='member' width={526} height={526} />
+              <Image src={image} alt='member' layout='fill' />
             </ImageMemberWrapper>
             <InfoWrapper>
               <h2>{name || ''}</h2>

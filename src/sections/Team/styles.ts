@@ -14,20 +14,16 @@ export const Team = styled.section`
 `
 
 export const Content = styled.div`
-  //   display: flex;
-  //   flex-direction: column;
-  //   justify-content: flex-start;
-  //   align-items: flex-start;
   padding-top: 100px;
   padding-inline: 20px;
   display: grid;
-  margin: 0 auto;
-  gap: 5rem;
+  gap: 3rem;
+  max-width: 90%;
 
-  @media only screen and (min-width: ${pageWidth.smallScreen}px) {
+  @media only screen and (min-width: ${pageWidth.phone}px) {
     padding-top: 100px;
-    padding-inline: 100px;
-    // align-items: flex-start;
+    padding-inline: 10px;
+    gap: 5rem;
     grid-template-columns: repeat(2, 1fr);
   }
 `
@@ -53,7 +49,7 @@ export const Title = styled.h2`
   font-weight: 700;
   letter-spacing: 1.29px;
   line-height: 1.2;
-  font-size: 35px;
+  font-size: 45px;
   color: var(--dark-green);
   text-transform: uppercase;
   text-align: center;
@@ -65,9 +61,6 @@ export const Title = styled.h2`
 `
 
 // Team
-export const MembersWrapper = styled.div`
-  display: flex;
-`
 
 export const MemberContainer = styled.div`
   display: flex;
@@ -75,22 +68,30 @@ export const MemberContainer = styled.div`
   justify-content: center;
   align-items: center;
   gap: 20px;
+  max-width: 700px;
 
-  @media only screen and (min-width: ${pageWidth.smallScreen}px) {
+  @media only screen and (min-width: ${pageWidth.screen}px) {
     flex-direction: row;
   }
 `
 
 export const ImageMemberWrapper = styled.div`
   display: flex;
-  height: 270px;
   position: relative;
+  min-width: 270px;
+  min-height: 200px;
+
+  @media only screen and (min-width: ${pageWidth.smallPhone}px) {
+    min-width: 300px;
+    flex-direction: row;
+  }
 `
 
 export const InfoWrapper = styled.div`
   display: flex;
   flex-direction: column;
   gap: 10px;
+  text-align: center;
 
   h2 {
     font-family: Knockout HTF50-Welterweight;
@@ -98,13 +99,20 @@ export const InfoWrapper = styled.div`
     font-weight: 900;
     color: var(--dark-green);
   }
+
+  @media only screen and (min-width: ${pageWidth.smallScreen}px) {
+    text-align: start;
+  }
 `
 
 export const InfoMember = styled.div`
   display: flex;
   flex-direction: column;
-  text-align: center;
   gap: 5px;
+  font-size: 20px;
+  text-align: center;
+  color: var(--dark-green);
+  font-family: Myriad Pro;
 
   h3,
   h4,
@@ -113,9 +121,7 @@ export const InfoMember = styled.div`
   }
 
   h3 {
-    font-family: Myriad Pro;
     font-weight: 700;
-    font-size: 20px;
   }
 
   h4 {

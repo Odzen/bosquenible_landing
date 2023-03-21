@@ -24,7 +24,7 @@ export const Content = styled.div`
 
   @media only screen and (min-width: ${pageWidth.smallScreen}px) {
     padding-top: 100px;
-    padding-inline: 100px;
+    padding-inline: 50px;
     align-items: flex-start;
   }
 `
